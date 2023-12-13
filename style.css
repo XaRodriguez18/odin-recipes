@@ -1,39 +1,58 @@
 * {
     font-family: Georgia, Monaco, serif;
 }
+/* Index styling */
+body {
+    background-color: dimgray;
+}
 h1 {
     font-size: 50px;
     font-weight: bold;
     color: white;
-    background-color: green;
     display: block;
     text-align: center;
 }
 a {
     font-size: 24px;
     color: gold;
-    background-color: green;
 }
-h2 {
+div.recipe-block {
+    text-align: center;
+}
+h2.recipe-link {
+    display:block;
+    padding: 20px;
+}
+div.recipe-photo-link {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Recipe pages styling */
+div.recipe-image {
+    text-align: center;
+}
+h2.recipe-sec {
     font-size: 30px;
     font-weight: 500;
     color: black;
     text-align: center;
 }
 p {
-    font-size: 22px;
-    color: white;
-    background-color: blue;
-}
-.ingredients li {
+    font-size: 25px;
     color: gold;
+    text-align: center;
+    padding: 8px;
+    margin: 0 100px;
 }
-.steps li {
-    color: purple;
+.ingredients {
+    color: gold;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 2em;
+    font-size: 18px;
 }
-img {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+.steps {
+    color: gold;
+    font-size: 18px;
 }
